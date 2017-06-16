@@ -1,0 +1,91 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+.row
+{
+    max-width: 1150px;
+    margin:0;}
+
+body
+{
+    font-family:"Yu Gothic UI Semibold";
+}
+.hero
+{
+    position: absolute;
+    width:1140px;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+header
+{
+    background-color: #00d2b0;
+    height:100vh;
+    background-position:center;
+    background-size: cover;
+}
+h1
+{
+    color:white;
+}
+
+.main-nav
+{
+    list-style:none;
+    float:right;
+}
+
+.main-nav li
+{
+    display: inline-block;
+    margin-left:20px;
+
+}
+.main-nav li a
+{
+    color:white;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: "Yu Gothic UI Semibold";
+}
+.main-nav li a:hover
+{
+    color: #00d2b0;
+    border-bottom:2px solid #06084f;
+    transition:all 0.5s ease-in;
+    padding:15px;
+}
+
+.btn
+{
+    border:1px solid #91c485;
+    padding: 15px 30px;
+    color: #7bfffd;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right:15px;
+
+}
+.button-awesome
+{
+    margin-top:50px;
+}
+
+.btn-half
+{
+    background-color: #034166;
+
+}
+
+
+
+
+
+
+
+
+
